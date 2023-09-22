@@ -1,7 +1,10 @@
-import React from 'react'
+import React from 'react';
 
-export default function error() {
+export default function notFound() {
   return (
-    <h1>Not found!</h1>
+    <div className="notFound flex flex-col h-screen justify-center ">
+      <h1 className='flex justify-center text-[4rem]'>404</h1>
+      <h2 className='flex justify-center text-[3.5rem]'>Oops! Not Found</h2>
+    </div>
   )
 }
