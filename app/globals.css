@@ -2,11 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+html{
     height: 100%;
     margin: 0;
-    color: #F5F5F5;
-    background-repeat: no-repeat;
-    background-image: linear-gradient(95deg, #000 , #1C2023FC , #2E393C);
+    color: #ffffff;
+    background-color: #00001A;
     font-size: 16px;
 }
