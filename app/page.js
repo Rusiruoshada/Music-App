@@ -1,5 +1,6 @@
 'use client'
 
+import HeroSection from '@/components/HeroSection';
 import Nav from '@/components/Nav'
 import OverlayMenu from '@/components/OverlayMenu'
 import { useState } from 'react'
@@ -16,7 +17,7 @@ export default function Home() {
    <>
       {showMenu && (<OverlayMenu />)}
       <Nav onMenuShow={onMenu}/>
-      
+      <HeroSection />
    </>
   )
 }
