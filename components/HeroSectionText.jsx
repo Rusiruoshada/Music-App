@@ -11,7 +11,8 @@ export default function HeroSectionText() {
             <p className='font-[roboto] text-[16px] lg:w-[70%] md:w-full'>La tua Musica, il tuo Futuro. Istruzione musicale certificata: unico partner Ufficiale del Trinity College di Londra a Milano</p>
         </div>
         <div className="flex flex-row my-[34px] ">
-            <Button text={'Vedi altro'} bgColor={'#523735'} hoverBgColor={'#111111'} textColor={'#C29E75'}/>
+            <Button text={'Vedi altro'} bgColor={'#523735'} hoverBgColor={'#111111'} textColor={'#C29E75'} path={'/about'}/>
+            <Button text={'Contattaci'} border={'border'} textColor={'#fff'} path={'/contact'}/>
         </div>
     </div>
   )
