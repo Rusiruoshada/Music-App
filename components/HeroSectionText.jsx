@@ -3,8 +3,8 @@ import Button from './Button';
 
 export default function HeroSectionText() {
   const heroSectionData = [
-    { value: '100+', text: 'clienti' },
-    { value: '50+', text: 'studenti' },
+    { value: '200+', text: 'clienti' },
+    { value: '100+', text: 'studenti' },
     { value: '10+', text: 'corsi' },
   ];
 
@@ -39,9 +39,9 @@ export default function HeroSectionText() {
       </div>
       <div className='flex flex-row lg:mt-[30px] mx-[20px]'>
         {heroSectionData.map((item,key)=> (
-            <div key={key} className='flex flex-col lg:w-[174px] lg:h-[173px] bg-gradient-to-b from-[rgba(217,217,217,0.33)] to-transparent mr-12 text-white justify-center sm:max-w-[10rem] py-3 px-3 max-w-[7rem] aspect-square'>
-                <p className='flex justify-center lg:text-[56px] lg:leading-[120%] tracking-[3.36px] font-[Playfair Display]'>{item.value}</p>
-                <p className='flex justify-center font-[Roboto] lg:text-[16px] lg:leading-[156%] lg:tracking-[1.52px] uppercase'>{item.text}</p>
+            <div key={key} className='flex flex-col lg:w-[155px] bg-gradient-to-b from-[rgba(217,217,217,0.33)] to-transparent mr-8 text-white justify-center sm:max-w-[10rem] py-3 px-3 max-w-[7rem] aspect-square'>
+                <p className='flex justify-center lg:text-[54px] lg:leading-[120%] tracking-[2px] font-[Playfair Display]'>{item.value}</p>
+                <p className='flex justify-center font-[Roboto] lg:text-[16px] lg:leading-[156%]  mt-[8px]'>{item.text}</p>
             </div>
         ))}
       </div>
