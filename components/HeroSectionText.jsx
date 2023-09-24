@@ -37,11 +37,11 @@ export default function HeroSectionText() {
           path={'/contact'}
         />
       </div>
-      <div className='flex flex-row lg:mt-[30px] mx-[20px]'>
+      <div className='grid grid-cols-3 md:grid-cols-3 lg:grid-cols-3 md:gap-3 lg:gap-0 lg:w-[600px] lg:mt-[30px] mx-[20px]'>
         {heroSectionData.map((item,key)=> (
-            <div key={key} className='flex flex-col lg:w-[155px] bg-gradient-to-b from-[rgba(217,217,217,0.33)] to-transparent mr-8 text-white justify-center sm:max-w-[10rem] py-3 px-3 max-w-[7rem] aspect-square'>
-                <p className='flex justify-center lg:text-[54px] lg:leading-[120%] tracking-[2px] font-[Playfair Display]'>{item.value}</p>
-                <p className='flex justify-center font-[Roboto] lg:text-[16px] lg:leading-[156%]  mt-[8px]'>{item.text}</p>
+            <div key={key} className='flex flex-col w-[155px] md:w-[90px] lg:w-[150px] bg-gradient-to-b from-[rgba(217,217,217,0.33)] to-transparent lg:mr-7 md:mr-[70px] mr-5 text-white justify-center sm:max-w-[10rem] py-3 px-3 max-w-[7rem] aspect-square last:mr-0 rounded-[5px]'>
+                <p className='flex justify-center lg:text-[54px] text-[28px] md:text-[24px] sm:text-[44px] lg:leading-[120%] tracking-[2px] font-[Playfair Display]'>{item.value}</p>
+                <p className='flex justify-center font-[Roboto] lg:text-[16px] lg:leading-[156%]  lg:mt-[8px]'>{item.text}</p>
             </div>
         ))}
       </div>
