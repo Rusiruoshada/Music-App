@@ -26,7 +26,7 @@ export default function Nav({ onMenuShow }) {
         </h1>
         <div className='md:flex justify-around mt-5 uppercase link hidden md:block'>
           {menuLinks.map((items, index) => (
-            <Link key={index} href={items} className='uppercase hover:border-b-2 border-yellow-400 text-slate-400 hover:text-white transition-all '>
+            <Link key={index} href={items} className='uppercase text-sm hover:border-b-2 border-yellow-400 text-slate-400 hover:text-white transition-all '>
               {items}
             </Link>
           ))}

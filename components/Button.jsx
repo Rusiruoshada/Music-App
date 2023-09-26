@@ -11,7 +11,7 @@ export default function Button({
   path,
 }) {
 
-    const router = useRouter();
+  const router = useRouter();
 
   return (
     <button
