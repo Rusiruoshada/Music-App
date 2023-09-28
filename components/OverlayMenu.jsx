@@ -1,10 +1,15 @@
+'use client'
+
 import React from 'react';
 
-export default function OverlayMenu() {
+export default function OverlayMenu({onShow}) {
+
   return (
-       <div className='h-screen bg-teal-900'> 
-            <h1>hello</h1>
-        </div>
-    
+      <> 
+        {onShow&& (
+          <div className='text-xl h-screen bg-black'>
+          </div>
+        )}
+      </>
   )
 }
