@@ -46,7 +46,9 @@ export default function About() {
             Qualità
           </li>
         </ul>
-        <Button text={'Saperne di più'} textColor={'#C29E75'} bgColor={'#523735'} border={undefined} path={'/about'}  />
+        <div className=''>
+          <Button text={'Saperne di più'} textColor={'#C29E75'} bgColor={'#523735'} border={undefined} path={'/about'}  marginY={'10'} />
+        </div>
       </div>
     </div>
   );

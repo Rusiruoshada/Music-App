@@ -10,6 +10,7 @@ export default function Button({
   bgColor = 'transparent',
   textColor = '#fff',
   hoverBgColor = undefined,
+  marginY = undefined,
   path,
 }) {
   console.log(text, border, bgColor, textColor, hoverBgColor, path);
@@ -18,7 +19,7 @@ export default function Button({
 
   return (
     <button
-      className={`group rounded-[5px] ${border} bg-[${bgColor}] py-[0.5rem] px-[1.5rem] lg:text-[1.2rem] tracking-[0.02rem] lg:leading-[1.75rem] md:text-[1rem] md:leading-[1.5rem] h-12 text-[${textColor}] hover:bg-[${hoverBgColor}] transition-all mr-4 hover:scale-[1.02]`}
+      className={`group rounded-[5px] ${border} bg-[${bgColor}] my-${marginY} py-[0.5rem] px-[1.5rem] lg:text-[1.2rem] tracking-[0.02rem] lg:leading-[1.75rem] md:text-[1rem] md:leading-[1.5rem] h-12 text-[${textColor}] hover:bg-[${hoverBgColor}] transition-all mr-4 hover:scale-[1.02]`}
       onClick={() => router.push(`/${path}`)}
     >
       {text}
