@@ -4,7 +4,7 @@ import HeroSectionImages from './HeroSectionImages'
 
 export default function HeroSection() {
   return (
-    <div className='flex flex-row '>
+    <div className='flex flex-row padding'>
         <HeroSectionText />
         <HeroSectionImages />
     </div>

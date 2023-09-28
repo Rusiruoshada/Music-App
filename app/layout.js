@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <body className='lg:px-14 sm:px-6 px-5' >
+      <body>
         <OverlayMenu onShow={showMenu}>
         </OverlayMenu>
           <Nav onMenuShow={onMenu} />

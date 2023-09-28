@@ -2,7 +2,7 @@
 
 import About from '@/components/About';
 import HeroSection from '@/components/HeroSection';
-import Nav from '@/components/Nav'
+import Video from '@/components/Video';
 
 export default function Home() {
 
@@ -10,6 +10,7 @@ export default function Home() {
    <>
       <HeroSection />
       <About />
+      <Video />
    </>
   )
 }

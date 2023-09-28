@@ -6,16 +6,16 @@ import Button from './Button';
 
 export default function About() {
   return (
-    <div className='flex flex-row gap-0 md:py-14 py-4 '>
+    <div className='flex flex-row gap-0 md:py-14 py-4 w-full px-5 sm:px-5 md:px-0'>
       <div className='hidden md:block md:w-1/2 w-full relative h-screen'>
         <Image
           src={homepageAboutSection}
           alt='a girl holding a headphone'
-          className='object-cover absolute  h-[100%] w-[100%] left-[-56px] right-0 top-0 bottom-0 '
+          className='object-cover absolute  h-[100%] w-[100%] left-0 right-0 top-0 bottom-0 '
           priority
         />
       </div>
-      <div className='md:w-1/2 md:pt-20 sm:px-11 md:px-0 pt-6 flex flex-col'>
+      <div className='md:w-1/2 md:pt-20 sm:px-0 md:px-10 pt-6 flex flex-col'>
         <p className='uppercase text-[#c29e75] lg:text-[1rem] lg:heading-[1.5rem] md:text-[0.875rem] md:leading-[1.25rem] font-[roboto]'>
           About us
         </p>

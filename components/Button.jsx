@@ -13,7 +13,7 @@ export default function Button({
   marginY = undefined,
   path,
 }) {
-  console.log(text, border, bgColor, textColor, hoverBgColor, path);
+  
 
   const router = useRouter();
 

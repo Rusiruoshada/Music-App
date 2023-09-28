@@ -9,3 +9,27 @@ html{
     background-color: #00001A;
     font-size: 16px;
 }
+.padding{
+        padding-left: 36px;
+        padding-right: 36px;
+}
+
+@media screen and (min-width: 1024px) {
+    .padding{
+        padding-left: 36px; 
+        padding-right: 36px;
+    }
+}
+@media (min-width: 760px) and (max-width: 1024px) {
+    .padding{
+        padding-left: 36px;
+        padding-right: 36px;
+    }
+}
+@media (min-width: 360px) and (max-width:760px) {
+    .padding{
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+}
+  

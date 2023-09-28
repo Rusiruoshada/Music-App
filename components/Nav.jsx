@@ -9,7 +9,7 @@ export default function Nav({ onMenuShow }) {
   const menuLinks = ['home', 'about', 'courses', 'gallery', 'contact'];
 
   return (
-    <div className='flex flex-row nav'>
+    <div className='flex flex-row nav padding'>
       <div className='logo relative w-32 h-52'>
         <Image
           className='image object-cover'
