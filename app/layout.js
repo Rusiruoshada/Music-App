@@ -1,5 +1,10 @@
+'use client'
+
+import Nav from '@/components/Nav'
 import './globals.css'
 import { Inter } from 'next/font/google'
+import OverlayMenu from '@/components/OverlayMenu'
+import { useState } from 'react'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -9,9 +14,21 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+
+  const [showMenu, setShowMenu] = useState(false);
+
+  const onMenu = () => {
+    setShowMenu(!showMenu);
+  }
+
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className='lg:px-14 sm:px-6 px-5' >
+        <OverlayMenu onShow={showMenu}>
+        </OverlayMenu>
+          <Nav onMenuShow={onMenu} />
+          {children}
+      </body>
     </html>
   )
 }

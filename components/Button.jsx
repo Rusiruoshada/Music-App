@@ -5,7 +5,7 @@ import { AiOutlineArrowRight } from 'react-icons/ai';
 export default function Button({
   text,
   border,
-  bgColor = 'transparent',
+  bgColor,
   textColor = '#fff',
   hoverBgColor,
   path,

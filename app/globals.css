@@ -8,4 +8,8 @@ html{
     color: #ffffff;
     background-color: #00001A;
     font-size: 16px;
+
+    .homepageAboutSectionDiv{
+        width: 100% ;
+    }
 }
