@@ -6,6 +6,7 @@ import OurCourse from '@/components/OurCourse';
 import Video from '@/components/Video';
 import Qualifications from '@/components/Qualifications';
 import HighArtisticEducation from '@/components/HighArtisticEducation';
+import ImageSection from '@/components/ImageSection';
 
 export default function Home() {
 
@@ -17,6 +18,7 @@ export default function Home() {
       <OurCourse />
       <Qualifications />
       <HighArtisticEducation />
+      <ImageSection />
    </>
   )
 }
