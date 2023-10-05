@@ -5,11 +5,11 @@ import ourStudio from '../public/our Studio.png';
 export default function Qualifications() {
   return (
     <div className='py-10 flex flex-row w-full'>
-      <div className='bg-[rgb(194,158,117)] padding flex flex-col md:w-1/2 justify-center md:py-0 h-screen'>
+      <div className='bg-[rgb(194,158,117)] padding flex flex-col md:w-1/2 justify-center md:py-0 md:h-screen h-[28rem]'>
         <p className='lg:text-base md:text-sm uppercase text-black font-[roboto]'>
           TITOLI DI STUDIO
         </p>
-        <h2 className='uppercase lg:leading-[4rem] lg:text-[3rem] md:leading-9 md:text-3x1 md:my-0 text-black font-semibold text-4x1 font-[Merriweather] mt-1 mb-2'>
+        <h2 className='uppercase lg:leading-[4rem] lg:text-[3rem] md:leading-9 md:text-[1.875rem] md:my-0 text-black font-semibold text-[2.25rem] leading-[2.5rem] font-[Merriweather] mt-1 mb-2'>
           Our Studio
         </h2>
         <p className='text-black font-bold text-base my-3 '>
