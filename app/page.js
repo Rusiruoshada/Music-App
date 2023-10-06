@@ -7,6 +7,7 @@ import Video from '@/components/Video';
 import Qualifications from '@/components/Qualifications';
 import HighArtisticEducation from '@/components/HighArtisticEducation';
 import ImageSection from '@/components/ImageSection';
+import Footer from '@/components/Footer';
 
 export default function Home() {
 
@@ -19,6 +20,7 @@ export default function Home() {
       <Qualifications />
       <HighArtisticEducation />
       <ImageSection />
+      <Footer />
    </>
   )
 }
