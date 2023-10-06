@@ -14,7 +14,7 @@ export default function UpperFooter() {
   const images= [image1, image2, image3, image4, image5, image6];
 
   return (
-    <div className='lg:gap-20 md:px-5 md:gap-10 md:flex-row sm:px-6 py-16 padding px-5 bg-black justify-between items-center flex-col w-full flex'>
+    <div className='lg:gap-20 lg:px-10 md:px-5 md:gap-10 md:flex-row sm:px-6 py-16 padding px-5 bg-black justify-between items-center flex-col w-full flex'>
       <div className='flex flex-col md:w-1/3 w-full max-width(475px):w-10/12'>
         <div className='flex flex-row gap-3 '>
           <div className='sm:w-36 w-32 h-50 relative'>
@@ -50,10 +50,32 @@ export default function UpperFooter() {
           <p className='text-white lg:text-xs font-medium text-base text-[10px py-1] '>
             Orari di servizio
           </p>
-          <p className='lg:text-xs font-podkova text-gray-400 font-medium text-base text-[10px] my-2'>
+          <p className='lg:text-xs font-podkova text-gray-400 font-medium text-base my-2'>
             Sempre e ovunque
           </p>
         </div>
+      </div>
+      <div className='md:hidden sm:block'>
+        <div className='flex flex-col gap-4 mt-4'>
+            <p
+              className='text-[#a0a0a0] font-podkova font-medium lg:text-base md:text-xs ease-in-out duration-200 transition text-sm gap-2 flex hover:text-[#c98d3f] hover:translate-x-1 '
+              href='/privacypolicy'
+            >
+              <span className='text-[26px]'>&#x1F892;</span>Privacy Policy
+            </p>
+            <p
+              className='text-[#a0a0a0] font-podkova font-medium lg:text-base md:text-xs ease-in-out duration-200 transition text-sm gap-2 flex hover:text-[#c98d3f] hover:translate-x-1 '
+              href='/help'
+            >
+              <span className='text-[26px]'>&#x1F892;</span>Help
+            </p>
+            <p
+              className='text-[#a0a0a0] font-podkova font-medium lg:text-base md:text-xs ease-in-out duration-200 transition text-sm gap-2 flex hover:text-[#c98d3f] hover:translate-x-1 '
+              href='/connect'
+            >
+              <span className='text-[26px]'>&#x1F892;</span>Connect
+            </p>
+        </div>    
       </div>
       <div className='md:w-1/3 md:flex justify-around hidden'>
         <div>
