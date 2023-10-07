@@ -58,19 +58,19 @@ export default function UpperFooter() {
       <div className='md:hidden sm:block'>
         <div className='flex flex-col gap-4 mt-4'>
             <p
-              className='text-[#a0a0a0] font-podkova font-medium lg:text-base md:text-xs ease-in-out duration-200 transition text-sm gap-2 flex hover:text-[#c98d3f] hover:translate-x-1 '
+              className='text-[#a0a0a0] font-podkova font-medium lg:text-base md:text-xs ease-in-out duration-200 transition text-sm gap-2 flex hover:text-[#c98d3f] hover:translate-x-1 cursor-pointer'
               href='/privacypolicy'
             >
               <span className='text-[26px]'>&#x1F892;</span>Privacy Policy
             </p>
             <p
-              className='text-[#a0a0a0] font-podkova font-medium lg:text-base md:text-xs ease-in-out duration-200 transition text-sm gap-2 flex hover:text-[#c98d3f] hover:translate-x-1 '
+              className='text-[#a0a0a0] font-podkova font-medium lg:text-base md:text-xs ease-in-out duration-200 transition text-sm gap-2 flex hover:text-[#c98d3f] hover:translate-x-1 cursor-pointer'
               href='/help'
             >
               <span className='text-[26px]'>&#x1F892;</span>Help
             </p>
             <p
-              className='text-[#a0a0a0] font-podkova font-medium lg:text-base md:text-xs ease-in-out duration-200 transition text-sm gap-2 flex hover:text-[#c98d3f] hover:translate-x-1 '
+              className='text-[#a0a0a0] font-podkova font-medium lg:text-base md:text-xs ease-in-out duration-200 transition text-sm gap-2 flex hover:text-[#c98d3f] hover:translate-x-1 cursor-pointer'
               href='/connect'
             >
               <span className='text-[26px]'>&#x1F892;</span>Connect
@@ -84,19 +84,19 @@ export default function UpperFooter() {
           </p>
           <div className='flex flex-col gap-4 mt-4'>
             <p
-              className='text-[#a0a0a0] font-podkova font-medium lg:text-base md:text-xs ease-in-out duration-200 transition text-sm gap-2 flex hover:text-[#c98d3f] hover:translate-x-1 '
+              className='text-[#a0a0a0] font-podkova font-medium lg:text-base md:text-xs ease-in-out duration-200 transition text-sm gap-2 flex hover:text-[#c98d3f] hover:translate-x-1 cursor-pointer'
               href='/about'
             >
               <span className='text-[26px]'>&#x1F892;</span>About
             </p>
             <p
-              className='text-[#a0a0a0] font-podkova font-medium lg:text-base md:text-xs ease-in-out duration-200 transition text-sm gap-2 flex hover:text-[#c98d3f] hover:translate-x-1 '
+              className='text-[#a0a0a0] font-podkova font-medium lg:text-base md:text-xs ease-in-out duration-200 transition text-sm gap-2 flex hover:text-[#c98d3f] hover:translate-x-1 cursor-pointer'
               href='/contact'
             >
               <span className='text-[26px]'>&#x1F892;</span>Contact
             </p>
             <p
-              className='text-[#a0a0a0] font-podkova font-medium lg:text-base md:text-xs ease-in-out duration-200 transition text-sm gap-2 flex hover:text-[#c98d3f] hover:translate-x-1 '
+              className='text-[#a0a0a0] font-podkova font-medium lg:text-base md:text-xs ease-in-out duration-200 transition text-sm gap-2 flex hover:text-[#c98d3f] hover:translate-x-1 cursor-pointer'
               href='/gallery'
             >
               <span className='text-[26px]'>&#x1F892;</span>Gallery
@@ -109,13 +109,13 @@ export default function UpperFooter() {
           </p>
           <div className='flex flex-col gap-4 mt-4'>
             <p
-              className='text-[#a0a0a0] font-podkova font-medium lg:text-base md:text-xs ease-in-out duration-200 transition text-sm gap-2 flex hover:text-[#c98d3f] hover:translate-x-1 '
+              className='text-[#a0a0a0] font-podkova font-medium lg:text-base md:text-xs ease-in-out duration-200 transition text-sm gap-2 flex hover:text-[#c98d3f] hover:translate-x-1 cursor-pointer'
               href='/event'
             >
               <span className='text-[26px]'>&#x1F892;</span>Event
             </p>
             <p
-              className='text-[#a0a0a0] font-podkova font-medium lg:text-base md:text-xs ease-in-out duration-200 transition text-sm gap-2 flex hover:text-[#c98d3f] hover:translate-x-1 '
+              className='text-[#a0a0a0] font-podkova font-medium lg:text-base md:text-xs ease-in-out duration-200 transition text-sm gap-2 flex hover:text-[#c98d3f] hover:translate-x-1 cursor-pointer'
               href='/ourcourses'
             >
               <span className='text-[26px]'>&#x1F892;</span>Our Courses

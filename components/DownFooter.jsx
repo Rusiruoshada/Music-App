@@ -35,11 +35,11 @@ export default function DownFooter() {
             </button>
             </div>
             <div className='lg:justify-end lg:col-span-1 gap-2 flex mt-7 mr-4 col-span-2'>
-                <AiFillFacebook className='text-white text-4xl p-1 bg-black rounded-md cursor-pointer' />
-                <FaInstagramSquare className='text-white text-4xl p-1 bg-black rounded-md cursor-pointer' />
-                <GrLinkedin className='text-white text-4xl p-1 bg-black rounded-md cursor-pointer' />
-                <FaTiktok className='text-white text-4xl p-1 bg-black rounded-md cursor-pointer' />
-                <GrYoutube className='text-white text-4xl p-1 bg-black rounded-md cursor-pointer' />
+                <AiFillFacebook href='/www.facebook.com/' className='text-white text-4xl p-1 bg-black rounded-md cursor-pointer' />
+                <FaInstagramSquare href='www.instagram.com/' className='text-white text-4xl p-1 bg-black rounded-md cursor-pointer' />
+                <GrLinkedin href='www.linkedin.com/' className='text-white text-4xl p-1 bg-black rounded-md cursor-pointer' />
+                <FaTiktok href='www.tiktok.com/' className='text-white text-4xl p-1 bg-black rounded-md cursor-pointer' />
+                <GrYoutube href='www.youtube.com' className='text-white text-4xl p-1 bg-black rounded-md cursor-pointer' />
             </div>
         </div>
     </div>
