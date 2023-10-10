@@ -34,7 +34,6 @@ export default function OurCourseImageSlide() {
   function showSlides(n) {
     let i;
     let slides = document.getElementsByClassName('mySlides');
-    console.log(slides)
     if (n > slides.length) {
       slideIndex = 1;
     }

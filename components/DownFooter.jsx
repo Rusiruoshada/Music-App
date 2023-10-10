@@ -6,12 +6,12 @@ import { GrLinkedin, GrYoutube } from 'react-icons/gr';
 export default function DownFooter() {
 
   return (
-    <div className='bg-[#282828] padding py-8 flex'>
-        <div className='hidden lg:grid-cols-3 md:grid-cols-2 md:grid justify-between items-center w-full'>
+    <div className='bg-[#282828] padding py-8 flex '>
+        <div className='lg:grid-cols-3 md:grid-cols-2 md:grid justify-center flex flex-col gap-5 items-center w-full'>
             <div className='flex md:flex-col md:text-sm text-xs gap-2 text-[#a0a0a0] font-podkova font-medium'>
             <p>
                 &copy;
-                <span className='text-orange-400 capitalize pl-3'>
+                <span className='text-orange-400 capitalize pl-3 text-[17px] md:text-sm font-[podkova]'>
                 L'OPERĀ INTERNATIONAL SCHOOL
                 </span>
                 <span className='text-gray-500 text-xs pl-3'>
@@ -34,7 +34,7 @@ export default function DownFooter() {
                 &#8594;
             </button>
             </div>
-            <div className='lg:justify-end lg:col-span-1 gap-2 flex mt-7 mr-4 col-span-2'>
+            <div className='lg:justify-end lg:col-span-1 gap-2 flex mt-7 mr-4 col-span-2 justify-center'>
                 <AiFillFacebook href='/www.facebook.com/' className='text-white text-4xl p-1 bg-black rounded-md cursor-pointer' />
                 <FaInstagramSquare href='www.instagram.com/' className='text-white text-4xl p-1 bg-black rounded-md cursor-pointer' />
                 <GrLinkedin href='www.linkedin.com/' className='text-white text-4xl p-1 bg-black rounded-md cursor-pointer' />
